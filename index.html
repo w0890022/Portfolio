@@ -1,0 +1,240 @@
+<!-------------------------------------------------------------------------------------------
+Name: Samantha Toye
+Student ID: 0890022
+Portfolio
+Date Last Modified: 07/07/2026
+1. NAVAGATION BAR
+2. ABOUT ME SECTION
+3. PROJECT SECTION
+4. EDUCATION & SKILLS SECTION
+5. CONTACT SECTION
+--------------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samantha Toye | Student Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+<!-- 1. NAVIGATION BAR -->
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50 p-4 flex justify-center items-center">
+        <div class="space-x-6">
+            <a href="#about" class="hover:text-blue-600 transition">About Me</a>
+            <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+            <a href="#experience" class="hover:text-blue-600 transition">Education</a>
+            <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+        </div>
+    </nav>
+
+<!-- 2. ABOUT ME SECTION -->
+   <header id="about" class="h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+        <img src="images/mypicture.jpg" alt="Samantha Toye" class="w-32 h-32 rounded-full object-cover shadow-lg mb-6">
+        <h1 class="text-5xl font-extrabold mb-4">Hi, I'm Samantha Toye</h1>
+        <p class="text-2xl font-semibold mb-4">Computer Programming Student</p>
+        
+        <p class="text-lg max-w-2xl mb-8 opacity-90">
+            A detail-oriented developer maintaining a current straight-A standing while exploring full-stack development, interactive frontend design, and relational databases. 
+        </p>
+        
+        <div class="space-y-2 mb-8">
+            <p class="text-xl">🏅 Academic Honours — May 2026 First Semester</p>
+            <p class="text-xl">🥈 2nd Place Winner — IT Club Hack-A-Thon Winter 2026</p>
+        </div>
+        <a href="#projects" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-100 transition">View My Work</a>
+    </header>
+
+<!-- 3. PROJECTS SECTION -->
+    <section id="projects" class="py-20 max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Academic Projects</h2>
+        <!-- CARD 1: TASK MANAGER -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="../My_Portfolio/images/taskmanager.png" alt="Task Manager Preview" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Task Manager</h3>
+                        <p class="text-gray-600 mb-4">An interactive web application demonstrating client-side scripting logic. 
+                            Built utilizing procedural JavaScript arrays and objects to dynamically insert, render, filter, 
+                            and prioritize scholastic and workplace assignments within a semantic HTML document structure.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex justify-between">
+                    <a href="https://w0890022.github.io/taskandcolorassignment/todo.html" target="_blank" class="text-blue-600 font-medium hover:underline">Live Demo on Github -></a>
+                    <a href="https://github.com/w0890022/taskandcolorassignment/blob/main/todo.html" target="_blank" class="text-gray-600 font-medium hover:underline">View Code</a>
+                </div>
+            </div>
+        <!-- CARD 2: COLOR MIXER -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="../My_Portfolio/images/colormixer.png" alt="Color Mixer Preview" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Color Mixer</h3>
+                        <p class="text-gray-600 mb-4">A dynamic frontend utility that leverages real-time JavaScript DOM manipulation. 
+                            Translates data inputs from interactive HTML RGB range sliders into synchronized functional hexadecimals, updating the background style layout container instantaneously.</p>
+                    </div>
+                </div>
+            <div class="p-6 pt-0 flex justify-between">
+                    <a href="https://w0890022.github.io/taskandcolorassignment/mixer.html" target="_blank" class="text-blue-600 font-medium hover:underline">Live Demo on Github -></a>
+                    <a href="https://github.com/w0890022/taskandcolorassignment/blob/main/mixer.html" target="_blank" class="text-gray-600 font-medium hover:underline">View Code</a>
+            </div>
+        </div>
+        <!-- CARD 3: PROJECT #1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="images/mainpage.png" alt="Project Preview" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project #1 About Me - HTML/CSS</h3>
+                        <p class="text-gray-600 mb-4">A multi-page responsive personal directory highlighting early frontend styling foundations. 
+                            Showcases semantic layout architecture, localized file structures, custom external CSS style rule sheets, and media query breakpoint formatting to ensure cross-device consistency.</p>
+                    </div>
+                </div>
+            <div class="p-6 pt-0 flex justify-between">
+                    <a href="https://w0890022.github.io/aboutme_project1/index.html" target="_blank" class="text-blue-600 font-medium hover:underline">Live Demo on Github -></a>
+                    <a href="https://github.com/w0890022/aboutme_project1/blob/main/index.html" target="_blank" class="text-gray-600 font-medium hover:underline">View Code</a>
+            </div>
+        </div>
+
+        <!-- CARD 4: PROJECT SCREENSHOT 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="images/project2.png" alt="Project Screenshot" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Student Recipe Hub - Project #2 HTML/CSS</h3>
+                        <p class="text-gray-600">A multi-page web directory featuring a semantic header navigation menu linking to dynamic data reference tables, user submission forms, and structured content containers. 
+                            Showcases organized site hierarchies, layout wrapper blocks, and optimized fluid multi-image rendering classes.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Class Assignment - (No Live Link)</span>
+                </div>
+            </div>
+
+        <!-- CARD 5: PROJECT SCREENSHOT 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="images/assign9.png" alt="Project Screenshot" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Favorite Film - Assignment #9 HTML/CSS</h3>
+                        <p class="text-gray-600">A responsive media page built with structural HTML and external CSS. 
+                            Showcases advanced multi-column layout wrapper divisions and responsive fluid imaging using element configurations like srcset and sizes properties.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Class Assignment - (No Live Link)</span>
+                </div>
+            </div>
+            
+        <!-- CARD 6: PROJECT SCREENSHOT 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <img src="images/assign10.png" alt="Project Screenshot" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Portfolio - Assignment #10 HTML/CSS</h3>
+                        <p class="text-gray-600">An early portfolio architectural prototype structured utilizing the Bootstrap CSS framework grid system. 
+                            Features multi-column alignment rows, uniform shadow-sm card groupings, a responsive fixed navigation bar element, and integrated custom hero sections.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Class Assignment - (No Live Link)</span>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+<!-- 4. EDUCATION & SKILLS SECTION -->
+    <section id="experience" class="py-20 bg-slate-900 border-t border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+        <!-- EDUCATION & COURSEWORK CARD -->
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-white">Education</h2>
+            <div class="bg-slate-800/50 p-6 rounded-lg border border-slate-700">
+                <h3 class="text-xl font-bold text-indigo-400">Computer Programming</h3>
+                <p class="text-slate-200 font-medium">St. Clair College — Windsor, ON</p>
+                <p class="text-sm text-slate-400 mb-4">Jan 2026 – Current | High Academic Standing</p>
+                
+                <h4 class="font-semibold text-slate-200 mb-2">Academic Core Foundations:</h4>
+                <ul class="list-disc pl-5 text-slate-300 space-y-2 text-sm">
+                    <li><strong class="text-white">Web Development:</strong> Responsive HTML/CSS Layouts, JavaScript 1 (Current), and Server-Side PHP Basics.</li>
+                    <li><strong class="text-white">Data & Architecture:</strong> Data Fundamentals in JSON & XML, alongside early immersion in MySQL Relational Databases initiated in Semester 1.</li>
+                    <li><strong class="text-white">Systems & Networking:</strong> Cisco Network Architecture basics and Linux Environment configurations.</li>
+                    <li><strong class="text-white">Professional Development:</strong> Law and Ethics in the Information Age, and Professional IT Skills Development.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TECHNICAL TOOLKIT -->
+                <div>
+                     <h2 class="text-3xl font-bold mb-6 text-white">Technical Toolkit</h2>
+                <div class="space-y-4">
+                
+        <!-- WEB & APPLICATION PROGRAMMING -->
+                <div>
+                    <span class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Web & Application Programming</span>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="bg-blue-900/40 text-blue-300 border border-blue-800/60 text-xs font-semibold px-3 py-1 rounded-full">HTML/CSS</span>
+                        <span class="bg-blue-900/40 text-blue-300 border border-blue-800/60 text-xs font-semibold px-3 py-1 rounded-full">JavaScript (Current)</span>
+                        <span class="bg-blue-900/40 text-blue-300 border border-blue-800/60 text-xs font-semibold px-3 py-1 rounded-full">Java (Intro)</span>
+                    </div>
+                </div>
+                
+        <!-- SERVER LOGIC & DATA EXCHANGE -->
+                <div>
+                    <span class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Server Logic and Data Exchange</span>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="bg-indigo-900/40 text-indigo-300 border border-indigo-800/60 text-xs font-semibold px-3 py-1 rounded-full">PHP (Basics)</span>
+                        <span class="bg-indigo-900/40 text-indigo-300 border border-indigo-800/60 text-xs font-semibold px-3 py-1 rounded-full">MySQL</span>
+                        <span class="bg-indigo-900/40 text-indigo-300 border border-indigo-800/60 text-xs font-semibold px-3 py-1 rounded-full">JSON Data</span>
+                        <span class="bg-indigo-900/40 text-indigo-300 border border-indigo-800/60 text-xs font-semibold px-3 py-1 rounded-full">XML Schemas</span>
+                    </div>
+                </div>
+
+        <!-- SYSTEMS MANAGEMENT -->
+                <div>
+                    <span class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Systems Management</span>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="bg-slate-800 text-slate-300 border border-slate-700 text-xs font-semibold px-3 py-1 rounded-full">Linux Environment</span>
+                        <span class="bg-slate-800 text-slate-300 border border-slate-700 text-xs font-semibold px-3 py-1 rounded-full">Networking Essentials</span>
+                        <span class="bg-emerald-900/40 text-emerald-300 border border-emerald-800/60 text-xs font-semibold px-3 py-1 rounded-full">Professional Ethics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- 5. CONTACT SECTION -->
+    <section id="contact" class="py-24 bg-gray-100 text-center">
+        <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
+        <p class="text-gray-600 mb-8 max-w-sm mx-auto">Looking for Fall 2026 Internship opportunities.</p>
+
+        <div class="max-w-md mx-auto grid grid-cols-1 gap-4 px-4">
+        
+            <a href="mailto:w0890022@myscc.ca" class="flex items-center justify-center space-x-2 bg-slate-800 border border-slate-700 text-slate-200 px-6 py-3 rounded-lg font-medium shadow-md hover:bg-slate-700 transition">
+                <span class="text-indigo-400 font-bold">College Email:</span>
+                <span>w0890022@myscc.ca</span>
+            </a>
+        
+            <a href="mailto:samanthaltoye@gmail.com" class="flex items-center justify-center space-x-2 bg-slate-800 border border-slate-700 text-slate-200 px-6 py-3 rounded-lg font-medium shadow-md hover:bg-slate-700 transition">
+                <span class="text-indigo-400 font-bold">Personal Email:</span>
+                <span>samanthaltoye@gmail.com</span>
+            </a>
+
+            <a href="https://github.com/w0890022" target="_blank" class="flex items-center justify-center space-x-2 bg-gray-900 text-white px-6 py-3 rounded-lg font-medium shadow-sm hover:bg-gray-800 transition">
+                <span>💻</span>
+                <span>GitHub Profile</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/samanthatoye" target="_blank" class="flex items-center justify-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium shadow-sm hover:bg-blue-700 transition">
+                <span>💼</span>
+                <span>Connect on LinkedIn</span>
+            </a>
+        </div>
+    </section>
+<footer class="text-center py-6 bg-white border-t text-sm text-gray-500">&copy; Programmed by Samantha Toye 0890022 </footer>
+</body>
+</html>
